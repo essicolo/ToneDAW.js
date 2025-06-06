@@ -187,3 +187,64 @@ select, input[type="number"] {
     font-size: 13px;
     padding: 4px;
 }
+.daw-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 600px;
+    margin-top: 30px;
+}
+
+.daw-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.daw-track {
+    margin-bottom: 12px;
+}
+
+.daw-track-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.daw-track-header label {
+    font-size: 12px;
+}
+
+.daw-lane {
+    position: relative;
+    height: 40px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.daw-note {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #555;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+
+.daw-track-area {
+    position: relative;
+}
+
+.daw-progress-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: red;
+    pointer-events: none;
+}
